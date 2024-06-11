@@ -7,7 +7,8 @@ const Home = () => {
     return (
         <div>
             <Link to='/inicio'>
-                <img className='img-fluid' src={logo}
+                <img className='img-fluid' 
+                src={logo}
                 alt='logo' ></img>
             </Link>
         </div>
